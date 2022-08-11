@@ -55,3 +55,17 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.csproj.CopyComplete
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaAplicacion.deps.json
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaAplicacion.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaAplicacion.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaDatos.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaDominio.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaDatos.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\bin\Debug\netcoreapp3.1\CapaDominio.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.csprojAssemblyReference.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.AssemblyInfoInputs.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.AssemblyInfo.cs
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.csproj.CoreCompileInputs.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.csproj.CopyComplete
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaAplicacion\obj\Debug\netcoreapp3.1\CapaAplicacion.pdb

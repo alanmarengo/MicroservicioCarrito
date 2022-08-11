@@ -35,3 +35,12 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.deps.json
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.pdb
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csprojAssemblyReference.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfoInputs.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfo.cs
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.dll
+D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.pdb
