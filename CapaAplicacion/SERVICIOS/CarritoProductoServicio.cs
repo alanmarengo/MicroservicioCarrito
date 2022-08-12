@@ -11,11 +11,11 @@ namespace CapaAplicacion.SERVICIOS
 {
     public interface ICarritoProductoServicio
     {
-        CarritoProducto InsertarCarritoProductoCliente(int carritoID,int productoID);
+        CarritoProducto InsertarCarritoProductoCliente(int carritoID, int productoID);
         List<CarritoProducto> InsertarCarritoProductoCantidad(PublicacionCarritoDto objeto);
     }
 
-    public class CarritoProductoServicio: ICarritoProductoServicio
+    public class CarritoProductoServicio : ICarritoProductoServicio
     {
 
         private readonly IGenericsRepository repository;
@@ -30,18 +30,21 @@ namespace CapaAplicacion.SERVICIOS
         public List<CarritoProducto> InsertarCarritoProductoCantidad(PublicacionCarritoDto objeto)
         {
             List<CarritoProducto> lista = new List<CarritoProducto>();
-            for (int x = 0; x < objeto.cantidad; x++)
+            if (objeto.carritoID > 0)
             {
-                CarritoProducto obj = new CarritoProducto()
+                for (int x = 0; x < objeto.cantidad; x++)
                 {
-                    CarritoID = objeto.carritoID,
-                    ProductoID = objeto.productoID
-                };
+                    CarritoProducto obj = new CarritoProducto()
+                    {
+                        CarritoID = objeto.carritoID,
+                        ProductoID = objeto.productoID
+                    };
 
-                 repository.Agregar<CarritoProducto>(obj);
-                lista.Add(obj);
+                    repository.Agregar<CarritoProducto>(obj);
+                    lista.Add(obj);
+                }
+
             }
-
             return lista;
         }
 
@@ -49,8 +52,8 @@ namespace CapaAplicacion.SERVICIOS
         {
             CarritoProducto objeto = new CarritoProducto()
             {
-                CarritoID=carritoID,
-                ProductoID=productoID
+                CarritoID = carritoID,
+                ProductoID = productoID
             };
 
             return repository.Agregar<CarritoProducto>(objeto);

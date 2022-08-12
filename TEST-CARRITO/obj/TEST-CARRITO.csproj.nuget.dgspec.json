@@ -1,0 +1,302 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\TEST-CARRITO\\TEST-CARRITO.csproj": {}
+  },
+  "projects": {
+    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "projectName": "CapaAplicacion",
+        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+              },
+              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "projectName": "CapaDatos",
+        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SqlKata": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "SqlKata.Execution": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "projectName": "CapaDominio",
+        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\TEST-CARRITO\\TEST-CARRITO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\TEST-CARRITO\\TEST-CARRITO.csproj",
+        "projectName": "TEST-CARRITO",
+        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\TEST-CARRITO\\TEST-CARRITO.csproj",
+        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
+        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\TEST-CARRITO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj"
+              },
+              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -25,7 +25,7 @@ namespace CapaAplicacion.SERVICIOS
     }
 
 
-    public class CarritoServicio :ICarritoServicio
+    public class CarritoServicio : ICarritoServicio
     {
         private readonly IGenericsRepository repository;
         private readonly IQueryCarrito query;
@@ -43,14 +43,14 @@ namespace CapaAplicacion.SERVICIOS
             this.contexto = contexto;
         }
 
-     
+
 
         public bool BorrarProductoCarrito(int productoID, int carritoID)
         {
             bool respuesta = false;
             CarritoProducto obj = (from x in contexto.CarritoProducto where x.ProductoID == productoID && x.CarritoID == carritoID select x).
             FirstOrDefault<CarritoProducto>();
-            if (obj!=null)
+            if (obj != null)
             {
                 repository.Delete<CarritoProducto>(obj);
                 respuesta = true;
@@ -60,18 +60,25 @@ namespace CapaAplicacion.SERVICIOS
 
         public Carrito InsertarCarritoCliente(int clienteID)
         {
-            Carrito objeto = new Carrito()
+            Carrito devolver = null;
+
+            if (clienteID > 0)
             {
-                ClienteID = clienteID
-            };
+                Carrito objeto = new Carrito()
+                {
+                    ClienteID = clienteID
+                };
 
+                devolver = repository.Agregar<Carrito>(objeto);
+            }
 
-            return repository.Agregar<Carrito>(objeto);
+            return devolver;
+
         }
 
         public async Task<ProductosCantidadValorDTO> ProductosValorCarritoCliente(int clienteID)
         {
-             decimal preciototal= 0;
+            decimal preciototal = 0;
             var query = (from x in contexto.Carrito where x.ClienteID == clienteID select x.ID).FirstOrDefault<int>();
             var query2 = (from x in contexto.CarritoProducto where x.CarritoID == query select x.ProductoID).Distinct<int>().ToList();
             List<ProductoEspecificoDto> productos = new List<ProductoEspecificoDto>();
@@ -100,25 +107,25 @@ namespace CapaAplicacion.SERVICIOS
                 int count = (from x in contexto.CarritoProducto where x.ProductoID == obj.ProductoID && x.CarritoID == query select x).Count();
                 ProductoEspecificoDto var = new ProductoEspecificoDto()
                 {
-                    ProductoID=obj.ProductoID,
-                    Imagen=obj.Imagen,
-                    Descripcion=obj.Descripcion,
-                    Stock=obj.Stock,
-                    Nombre=obj.Nombre,
-                    Marca=obj.Marca,
-                    Cantidad=count,
-                    Categoria=obj.Categoria,
-                    Precio=obj.Precio
+                    ProductoID = obj.ProductoID,
+                    Imagen = obj.Imagen,
+                    Descripcion = obj.Descripcion,
+                    Stock = obj.Stock,
+                    Nombre = obj.Nombre,
+                    Marca = obj.Marca,
+                    Cantidad = count,
+                    Categoria = obj.Categoria,
+                    Precio = obj.Precio
                 };
                 productos.Add(var);
-                preciototal += var.Precio*var.Cantidad;
+                preciototal += var.Precio * var.Cantidad;
 
             }
 
 
             objeto.productos = productos;
             objeto.valorcarrito = preciototal;
-            
+
 
 
 
@@ -132,11 +139,11 @@ namespace CapaAplicacion.SERVICIOS
         public int VerificarClienteCarrito(int clienteID)
         {
             var query = (from x in contexto.Carrito where x.ClienteID == clienteID select x.ID).FirstOrDefault<int>();
-            if (query==0)
+            if (query == 0)
             {
                 Carrito obj = new Carrito()
                 {
-                    ClienteID=clienteID
+                    ClienteID = clienteID
                 };
                 repository.Agregar<Carrito>(obj);
             }

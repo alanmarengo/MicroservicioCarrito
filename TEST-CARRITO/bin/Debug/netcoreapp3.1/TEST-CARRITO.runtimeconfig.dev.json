@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ayala\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ayala\\.nuget\\packages"
+    ]
+  }
+}
