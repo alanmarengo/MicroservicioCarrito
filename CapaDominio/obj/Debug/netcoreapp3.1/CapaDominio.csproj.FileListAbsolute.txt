@@ -44,3 +44,13 @@ D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcorea
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.dll
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.deps.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\bin\Debug\netcoreapp3.1\CapaDominio.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.AssemblyReference.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfoInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.AssemblyInfo.cs
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.csproj.CoreCompileInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDominio\obj\Debug\netcoreapp3.1\CapaDominio.pdb

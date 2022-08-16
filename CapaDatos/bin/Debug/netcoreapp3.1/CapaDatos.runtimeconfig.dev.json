@@ -1,8 +1,10 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\ayala\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ayala\\.nuget\\packages"
+      "C:\\Users\\mayala\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mayala\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

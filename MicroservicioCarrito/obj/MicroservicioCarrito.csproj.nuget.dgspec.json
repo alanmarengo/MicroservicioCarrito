@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj": {}
+    "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj": {}
   },
   "projects": {
-    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+    "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
         "projectName": "CapaAplicacion",
-        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\obj\\",
+        "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +33,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+              "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
               },
-              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
-                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
               }
             }
           }
@@ -67,21 +72,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+    "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
-        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\obj\\",
+        "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +105,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
-                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
+              "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+                "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj"
               }
             }
           }
@@ -155,21 +165,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
+    "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
         "projectName": "CapaDominio",
-        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDominio\\obj\\",
+        "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\CapaDominio.csproj",
+        "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,21 +230,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj": {
+    "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
+        "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
         "projectName": "MicroservicioCarrito",
-        "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
-        "packagesPath": "C:\\Users\\ayala\\.nuget\\packages\\",
-        "outputPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\MicroservicioCarrito\\obj\\",
+        "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\MicroservicioCarrito\\MicroservicioCarrito.csproj",
+        "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\MicroservicioCarrito\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -243,11 +263,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
-                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj"
+              "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj": {
+                "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaAplicacion\\CapaAplicacion.csproj"
               },
-              "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
-                "projectPath": "D:\\UNAJ\\Proyecto de software\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
+              "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioCarrito\\CapaDatos\\CapaDatos.csproj"
               }
             }
           }
@@ -313,7 +333,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

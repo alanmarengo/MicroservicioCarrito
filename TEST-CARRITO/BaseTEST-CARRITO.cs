@@ -13,7 +13,7 @@ namespace TEST_CARRITO
         {
             if (db == null)
             {
-                var opciones = new DbContextOptionsBuilder<Contexto>().UseSqlServer("Server=DESKTOP-NBSBBH9;Database=CarritoAPI;Trusted_Connection=true;",
+                var opciones = new DbContextOptionsBuilder<Contexto>().UseSqlServer("Server=NTB707\\SQLEXPRESS;Database=CarritoAPI;Uid=sa;Pwd='Emerix01';",
                 options => { }).Options;
                 db = new Contexto(opciones);
                 return db;

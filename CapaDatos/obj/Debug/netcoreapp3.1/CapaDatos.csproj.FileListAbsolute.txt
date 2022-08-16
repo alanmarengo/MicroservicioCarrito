@@ -74,3 +74,19 @@ D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.dll
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.pdb
 D:\UNAJ\Proyecto de software\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.genruntimeconfig.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDatos.deps.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDatos.runtimeconfig.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDatos.runtimeconfig.dev.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDatos.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDatos.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDominio.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\bin\Debug\netcoreapp3.1\CapaDominio.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.AssemblyInfo.cs
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.csproj.CopyComplete
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioCarrito\CapaDatos\obj\Debug\netcoreapp3.1\CapaDatos.genruntimeconfig.cache
